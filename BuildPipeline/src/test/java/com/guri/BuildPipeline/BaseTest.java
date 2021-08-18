@@ -16,7 +16,7 @@ public class BaseTest {
 	@Test(groups = {"grp2"}, priority =1)
 	public void test2() {
 
-		System.out.println("Test two");
+		System.out.println("Test two update");
 		String mvnParam = System.getProperty("browser");
 		System.out.println(mvnParam);
 	}
